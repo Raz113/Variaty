@@ -1,5 +1,5 @@
 // Paste the command below to inject this script into CSGOLounge
-// $.getScript('https://steamapis.com/Spam.js');
+// $.getScript('https://raw.githubusercontent.com/Raz113/Variaty/master/Spam1.js');
 
 // We need to modify these sooner or later
 var settings = {
