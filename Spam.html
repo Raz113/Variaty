@@ -1,0 +1,154 @@
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
+<style>
+	* {
+		font-family: 'Lato', sans-serif;
+	}
+	body {
+		font-size:16px;
+		overflow:hidden;
+	}
+	.form-control, .btn {
+		border-radius:0;
+	}
+	.__container {
+		color:#fff;
+		background:rgba(0, 0, 0, .9);
+		position:fixed; 
+		left:0; top:0; right:0; bottom:0;
+		padding:3%;
+		overflow:scroll;
+	}
+	.__title {
+		color:#FF2D00;
+		font-size:48px;
+		font-weight:300;
+	}
+	.__head {
+		color:#ccc;
+		font-size:18px;
+		font-weight:400;
+	}
+	.__head .label {
+		margin-left:8px;
+		margin-right:16px;
+		border-radius:0;
+		font-weight:300;
+	}
+	.label {
+		border-radius:0;
+	}
+	.__status {
+		display:block;
+	}
+	.__col {
+		width:50%;
+		display:inline-block;
+	}
+	.table td {
+		border:0 !important;
+	}
+	.__xD {
+		margin-right:15px;
+	}
+	._m {
+		margin-top:15px;
+		margin-bottom:5px;
+	}
+</style>
+
+<div class="__container">
+	<div class="__title">CSGOLounge Spammer
+		<span class="label label-warning" data-status>Idle</span>
+	</div>
+	<div class="__status">
+		<div class="__col">
+			<div class="__head">Version
+				<span class="label label-primary">1.2</span> Last update
+				<span class="label label-default">09.10.16</span>
+				<a href="http://lohh.pw/csgolounge-spammer/" target="_blank">Official website</a>
+			</div>
+		</div>
+	</div>
+	<ul class="list-unstyled" style="margin-top:15px;">
+		<li>
+			<span class="label label-success __xD" data-countr>0</span> Trades replied to
+		</li>
+		<li>
+			<span class="label label-danger __xD" data-errorr>0</span> Failed replies <small><i>(If this starts counting change your IP)</i></small>
+		</li>
+	</ul>
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="alert alert-info">
+				Some people have an error related to "TSLT". Please make sure that you have your account linked with Steam!
+			</div>
+			<div class="alert alert-warning">
+				Please keep in mind that spamming may lead you to getting negative reputation from other users. If your reputation goes negative CSGOLounge will apply a captcha for commenting - then this script becomes useless.
+			</div>
+		</div>
+		<div class="col-xs-8">
+			<div class="__head _m">Message</div>
+			<textarea class="form-control" name="spamtext" rows="3" placeholder="Enter your message here" required></textarea>
+			<div class="__head _m">Interval <small>(Seconds)</small></div>
+			<input type="text" class="form-control" name="spaminterval"s placeholder="Seconds" required>
+		</div>
+		<div class="col-xs-4">
+			<div class="__head _m">Debug info</div>
+			<textarea data-cmd rows="7" class="form-control"></textarea>
+		</div>
+	</div>
+	
+	<hr style="opacity:.05;">
+	<button class="btn btn-lg btn-success" onclick="spammer.start();$(this).hide()">Start spamming</button>
+	<div style="margin-top:30px;">
+		<span style="display:inline-block; margin-right:15px;">
+			<div class="advertiads"
+			adverti-site="56b61ac1aaf96"
+			adverti-code="57580096c2b1a"
+			adverti-dimensions="300x250"
+			></div>
+		</span>
+		<span style="display:inline-block; margin-right:15px;">
+			<div class="advertiads"
+		adverti-site="56b61ac1aaf96"
+		adverti-code="57580096c2b1a"
+		adverti-dimensions="300x250"
+		></div>
+		</span>
+		<span style="display:inline-block; margin-right:15px;">
+      <div class="advertiads"
+    adverti-site="56b61ac1aaf96"
+    adverti-code="57580096c2b1a"
+    adverti-dimensions="300x250"
+    ></div>
+    </span>
+    <span style="display:inline-block; margin-right:15px;">
+      <div class="advertiads"
+    adverti-site="56b61ac1aaf96"
+    adverti-code="57580096c2b1a"
+    adverti-dimensions="300x250"
+    ></div>
+    </span>
+		<span style="display:inline-block; margin-right:15px;">
+			<div class="advertiads"
+		adverti-site="56b61ac1aaf96"
+		adverti-code="57580096c2b1a"
+		adverti-dimensions="300x250"
+		></div>
+		</span>
+	</div>
+	<div class="advertiads"
+	adverti-site="56b61ac1aaf96"
+	adverti-dimensions="popunder"
+	></div>
+	<script type="text/javascript" src="//serve-cdn.adverti.io/display.min.js" async></script>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-78963849-1', 'auto');
+  ga('send', 'pageview');
+</script>
